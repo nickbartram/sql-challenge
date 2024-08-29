@@ -8,7 +8,7 @@ The data is comprised of six CSV files, each containing a single table of employ
 
 ## Methodology
 The tables have many interdepencies and therefore an ERD (entity relationship diagram) is helpful and perhaps necessary. Creating an ERD (data modeling) is the first step. 
-Next the tables need to be imported into pgAdmin with PostgreSQL. A table schema must be created for each CSV file. This is data engineering. Careful attention must be paid to the interdependencies outlined in the ERD including: primary keys, foreign keys and references.
+Next the tables need to be imported into pgAdmin with PostgreSQL. A table schema must be created for each CSV file (data engineering). Careful attention must be paid to the interdependencies outlined in the ERD including: primary keys, foreign keys and references.
 The final step is data analysis, a list of queries of the data largely require joins of the various tables. 
 
 ## Results
