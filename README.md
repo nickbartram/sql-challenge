@@ -7,7 +7,7 @@ This challenge looks at a fictional company's employees from 1980-90. The data i
 The data is comprised of six CSV files, each containing a single table of employee info. The tables are: 'departments', 'dept_empt' (department employees), 'dept_manager' (department managers), 'employees', 'salaries', and 'titles'.
 
 ## Methodology
-The tables have many interdepencies and therefore an ERD (entity relationship diagram) is helpful and perhaps necessary. Creating an ERD, data modeling, is the first step. 
+The tables have many interdepencies and therefore an ERD (entity relationship diagram) is helpful and perhaps necessary. Creating an ERD (data modeling) is the first step. 
 Next the tables need to be imported into pgAdmin with PostgreSQL. A table schema must be created for each CSV file. This is data engineering. Careful attention must be paid to the interdependencies outlined in the ERD including: primary keys, foreign keys and references.
 The final step is data analysis, a list of queries of the data largely require joins of the various tables. 
 
