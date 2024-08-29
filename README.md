@@ -27,3 +27,4 @@ Class materials were used extensively for this assignment, as well as:
 ## Usage
 While creating the schemata for the tables the 'employees' table was created first, although it contained a foreign key from the 'titles' table. The 'employees' table required an update to accept the 'titles' foreign key. This can be seen the in 'employees.sql' schema in the ALTER TABLE query. 
 While running the schemata it may be beneficial to run the 'titles' schema first, followed by 'employees' etc. The ERD can be extremely helpful in determining the order.
+Importing 'employees' table required 'birth_date' and 'hire_date' columns to be cast as strings (VARCHAR). The date format was not initially recognized by pgAdmin and PostgreSQL. Those columns then had to be re-cast as date types later in the schema.
