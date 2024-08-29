@@ -14,3 +14,13 @@ ALTER TABLE employees
 ADD CONSTRAINT fk_emp_title
 FOREIGN KEY (emp_title_id) REFERENCES titles(title_id);
 
+ALTER TABLE employees
+ALTER COLUMN hire_date TYPE DATE
+USING TO_DATE(hire_date, 'MM/DD/YYY');
+
+ALTER TABLE employees
+ALTER COLUMN birth_date TYPE DATE
+USING TO_DATE(birth_date, 'MM/DD/YYY');
+
+SELECT * FROM employees;
+
